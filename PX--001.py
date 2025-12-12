@@ -1,3 +1,4 @@
+
 """Importing all the necessary libraries..."""
 import os
 import requests
@@ -60,3 +61,4 @@ print()
 """Storing Seaplane bases information on a separate excel file."""
 seaplane=df_facilities[df_facilities["Type"]=="SEAPLANE BASE"]
 seaplane.to_excel("Px-01/seaplane.xlsx")
+
